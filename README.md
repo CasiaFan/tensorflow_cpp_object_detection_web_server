@@ -31,17 +31,18 @@ sudo apt-get install libboost-all-dev
 ```
 
 ### Usage
-1. compile the project
+1. compile the project <br>
 ```bash
 cmake .
 make
 ```
-2. run tf-cpp web service
+
+2. run tf-cpp web service <br>
 ```bash
 ./tf_detect_crow
 ```
 
-3. test with python script
+3. test with python script<br>
 ``` 
 python test_cpp_api.py
 ```
